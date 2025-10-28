@@ -31,7 +31,7 @@ of interfacing with any hardware through well-defined extension points.
 
 ---
 
-## 1. Scope
+## Scope
 
 Development begins with a single ECU domain to enable fast iteration:
 
@@ -59,7 +59,7 @@ Development begins with a single ECU domain to enable fast iteration:
 
 ---
 
-## 2. Architecture
+## Architecture
 
 Implemented entirely in C. Options under evaluation:
 
@@ -74,7 +74,7 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 3. Kernel Feature Set
+## Kernel Feature Set
 
 - **Scheduling:** Fixed-priority preemptive; optional rate-monotonic analysis; tickless timer.
 - **Interrupts:** Bounded latency, short ISRs, defer work to tasks.
@@ -84,7 +84,7 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 4. Platform Services
+## Platform Services
 
 ### Communication
 
@@ -114,7 +114,7 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 5. Safety & Process
+## Safety & Process
 
 - **ISO 26262:** Hazard analysis, ASIL assignment, safety mechanisms, traceability.
 - **Coding Standard:** MISRA C:2012 (+ Amendments); deterministic control flow, no runtime allocation.
@@ -124,14 +124,14 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 6. Hardware Targets
+## Hardware Targets
 
 - **Preferred MCUs:** Infineon AURIX, NXP S32K/S32R, Renesas RH850, STM32 (Cortex-M7/M33).
 - **Desired peripherals:** Multiple CAN/CAN-FD, Ethernet MAC with TSN, ECC RAM/Flash, MPU.
 
 ---
 
-## 7. Deliverables (Phased)
+## Deliverables (Phased)
 
 - **Phase 0 – Board Bring-up**  
   BSP: clock tree, MPU, startup.s, linker script, SysTick/GPT, GPIO, UART.
@@ -148,7 +148,7 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 8. Toolchain & CI
+## Toolchain & CI
 
 - **Compiler:** Vendor toolchains or GCC; warnings as errors.
 - **Build System:** Make or CMake; output: binary + map + size + reports.
@@ -157,7 +157,7 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 9. Design Guidelines
+## Design Guidelines
 
 - Keep ISR work minimal; defer to tasks.
 - No malloc/free after init; pre-allocate all pools.
@@ -167,7 +167,7 @@ Implemented entirely in C. Options under evaluation:
 
 ---
 
-## 10. First Milestone
+## First Milestone
 
 - Board bring-up + kernel with 3 priorities and round-robin.
 - CAN loopback test: periodic TX task, RX ISR → queue → parser task.
