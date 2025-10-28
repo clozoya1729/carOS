@@ -1,8 +1,15 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L51IYAOI)
+<p align="center">
+  <img src="_assets/image/car.png" width="175">
+</p>
 
 # carOS
 
-###### Car Operating System
+**Car Operating System**
+
+[![Patreon](https://img.shields.io/badge/Support-Patreon-051D34?logo=patreon&logoColor=white)](https://www.patreon.com/lozoya)
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/clozoya172b)
+[![Ko-fi](https://img.shields.io/badge/Tip-Ko%E2%80%91fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/lozoya)
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
 
 A lightweight operating system in C for automotive Electronic Control Units (ECUs).  
 This project is focused on building a certifiable, vehicle-grade real-time kernel and supporting platform services.
@@ -273,8 +280,26 @@ car-os-c/
 
 ---
 
-# License
+## Support This Work
 
-GNU AFFERO GENERAL PUBLIC LICENSE Version 3
+Open source engineering takes a lot of time and coffee. If you would like to directly support ongoing research, development, and maintenance of these tools, you can do so here:
+
+[![Patreon](https://img.shields.io/badge/Support-Patreon-051D34?logo=patreon&logoColor=white)](https://www.patreon.com/lozoya)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/clozoya172b)
+
+[![Ko-fi](https://img.shields.io/badge/Tip-Ko%E2%80%91fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/lozoya)
+
+Your support helps keep the project healthy and moving forward.
 
 ---
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). Any modified version made available to users over a network must also be released under the AGPL-3.0. See the LICENSE file for full details.
+
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
+
+---
+
+
